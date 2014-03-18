@@ -109,7 +109,7 @@ DEFINES += SYNCMLSERVER_LIBRARY
 SOURCES += SyncMLServer.cpp \
     USBConnection.cpp \
     BTConnection.cpp \
-    $$INCLUDE_DIR/ButeoPluginIfAdaptor.cpp \
+    $$INCLUDE_DIR/ButeoPluginIfaceAdaptor.cpp \
     $$INCLUDE_DIR/PluginCbImpl.cpp \
     $$INCLUDE_DIR/PluginServiceObj.cpp \
     $$INCLUDE_DIR/plugin_main.cpp
@@ -118,7 +118,7 @@ HEADERS += SyncMLServer.h\
         syncmlserver_global.h \
     USBConnection.h \
     BTConnection.h \
-    $$INCLUDE_DIR/ButeoPluginIfAdaptor.h \
+    $$INCLUDE_DIR/ButeoPluginIfaceAdaptor.h \
     $$INCLUDE_DIR/PluginCbImpl.h \
     $$INCLUDE_DIR/PluginServiceObj.h
 
